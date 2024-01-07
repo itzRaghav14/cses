@@ -1,6 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+#ifndef ONLINE_JUDGE
+#include "algo/debug.h"
+#else
+#define dbg(...) ; 
+#define debug(...) ; 
+#define crndl ; 
+#endif
+
 const int MOD = 1e9 + 7;
 const int MX = 1e9;
  
